@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+}
+
+.containerLeft{
+    border-radius: 40px;
+    padding: 70px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 16vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario{
+    border-radius: 40px;
+    padding: 70px 60px;
+    background-color: rgb(27, 27, 27);
+}
+
+.texto{
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 55px;
+    outline: 0;
+    padding-left: 10px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.texto::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.enviar{
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    border: 0;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.login{
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.enviar:hover{
+    background-color: rgb(165, 165, 165);
+}
